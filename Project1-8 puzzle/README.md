@@ -22,9 +22,9 @@ To execute the file:
 The code generates 3 text files:
 + nodePath.txt = Suggests the path taken to solve the problem, i.e., the final output. Format of the file :
 For an array entry of the following way:
--------------------------
+
 $$
-\left[\begin{array}{cc} 
+\left[\begin{array}
 1 & 3 & 5\\
 6 & 7 & 8\\
 4 & 5 & 0
