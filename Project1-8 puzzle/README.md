@@ -23,11 +23,13 @@ The code generates 3 text files:
 + nodePath.txt = Suggests the path taken to solve the problem, i.e., the final output. Format of the file :
 For an array entry of the following way:
 -------------------------
-\begin{matrix}
-1 & 3 & 5
-6 & 7 & 8
-4 & 2 & 0
-\end{matrix}
+$$
+\left[\begin{array}{cc} 
+1 & 3 & 5\\
+6 & 7 & 8\\
+4 & 5 & 0
+\end{array}\right]
+$$ 
 
 The file generates text format as: [1,6,4,3,7,2,5,8,0]
 + Nodes.txt - All the explored nodes in the program (follows similar format)
